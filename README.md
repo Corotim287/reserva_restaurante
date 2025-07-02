@@ -59,14 +59,14 @@ A organização do código segue boas práticas, com separação clara entre mod
 ├── README.md # Documentação do projeto
 ```
 ## Tecnologias Utilizadas
-
+```
 🟢 Node.js — Plataforma JavaScript do lado do servidor
 ⚡ Express.js — Framework web minimalista e rápido
 🛠️ Sequelize ORM — Mapeamento objeto-relacional para facilitar acesso ao banco
 🐘 PostgreSQL — Banco de dados relacional poderoso e open source
 🔐 JSON Web Tokens (JWT) — Autenticação e autorização baseada em tokens
 🌿 dotenv — Gerenciamento de variáveis de ambiente para configuração segura
-
+```
 🖥️ Interface em Desenvolvimento
 A aplicação foi desenvolvida inicialmente como uma API RESTful, mas em breve contará com uma interface visual (frontend) para facilitar o uso por clientes e administradores.
 A ideia é tornar a experiência mais acessível, intuitiva e amigável, mantendo a mesma base robusta de autenticação e controle de permissões.
