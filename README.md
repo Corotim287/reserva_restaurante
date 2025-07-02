@@ -1,4 +1,4 @@
-# API de Reserva de Restaurante
+```# API de Reserva de Restaurante
 
 API RESTful desenvolvida em Node.js com Express e Sequelize para gerenciamento de mesas e reservas em um restaurante. Pensada para ser segura, escalável e organizada, com autenticação JWT e controle de acesso baseado em roles.
 
@@ -61,4 +61,5 @@ A organização do código segue boas práticas, com separação clara entre mod
 🖥️ Interface em Desenvolvimento
 A aplicação foi desenvolvida inicialmente como uma API RESTful, mas em breve contará com uma interface visual (frontend) para facilitar o uso por clientes e administradores.
 A ideia é tornar a experiência mais acessível, intuitiva e amigável, mantendo a mesma base robusta de autenticação e controle de permissões.
+```
 
