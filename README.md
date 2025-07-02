@@ -1,4 +1,4 @@
-```# API de Reserva de Restaurante
+# API de Reserva de Restaurante
 
 API RESTful desenvolvida em Node.js com Express e Sequelize para gerenciamento de mesas e reservas em um restaurante. Pensada para ser segura, escalável e organizada, com autenticação JWT e controle de acesso baseado em roles.
 
@@ -6,14 +6,23 @@ API RESTful desenvolvida em Node.js com Express e Sequelize para gerenciamento d
 
 Este projeto foi estruturado para facilitar o controle completo de reservas, mesas e usuários, contemplando:
 
-- Cadastro, atualização, listagem e exclusão de mesas
-- Criação, listagem e cancelamento de reservas
-- Autenticação e autorização via JWT
-- Controle de acesso para usuários clientes e administradores
-- Validação rigorosa de dados e tratamento de erros
+🪑 Gerenciamento de Mesas
+Cadastro, atualização, listagem e exclusão de mesas
+
+📅 Gerenciamento de Reservas
+Criação, listagem e cancelamento de reservas
+
+🔐 Autenticação e Autorização
+Controle via JSON Web Tokens (JWT)
+
+👥 Controle de Acesso
+Diferenciação entre usuários clientes e administradores
+
+✅ Validação e Tratamento de Erros
+Garantia de dados consistentes e respostas adequadas
 
 A organização do código segue boas práticas, com separação clara entre models, controllers, middlewares e rotas, facilitando manutenção e futuras extensões.
-
+```
 📦 reserva-restaurante
 ├── 📁 src # Código-fonte principal da aplicação
 │ ├── 📁 controllers # Controladores que tratam a lógica das rotas
@@ -48,18 +57,18 @@ A organização do código segue boas práticas, com separação clara entre mod
 ├── .gitignore # Arquivos e pastas que não devem ser enviados para o Git
 ├── package.json # Gerencia dependências e scripts do projeto
 ├── README.md # Documentação do projeto
-
+```
 ## Tecnologias Utilizadas
 
-- Node.js
-- Express.js
-- Sequelize ORM
-- PostgreSQL
-- JSON Web Tokens (JWT)
-- dotenv para variáveis de ambiente
-- 
+🟢 Node.js — Plataforma JavaScript do lado do servidor
+⚡ Express.js — Framework web minimalista e rápido
+🛠️ Sequelize ORM — Mapeamento objeto-relacional para facilitar acesso ao banco
+🐘 PostgreSQL — Banco de dados relacional poderoso e open source
+🔐 JSON Web Tokens (JWT) — Autenticação e autorização baseada em tokens
+🌿 dotenv — Gerenciamento de variáveis de ambiente para configuração segura
+
 🖥️ Interface em Desenvolvimento
 A aplicação foi desenvolvida inicialmente como uma API RESTful, mas em breve contará com uma interface visual (frontend) para facilitar o uso por clientes e administradores.
 A ideia é tornar a experiência mais acessível, intuitiva e amigável, mantendo a mesma base robusta de autenticação e controle de permissões.
-```
+
 
